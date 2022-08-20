@@ -9,7 +9,7 @@ import random
 from itertools import permutations
 from numpy import array
 
-
+# made changes to see in git #1
 def selector(num, arr, chosen_ones):
     for _ in range(num):
         chosen_ones.append(random.choice(arr))
